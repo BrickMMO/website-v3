@@ -3,6 +3,7 @@ import { useTheme } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import Container from 'common/Container';
 import { Rules, Features, Partnership, Hero, Highlights } from './components';
+import List from '../Commissions/components/List';
 
 const Home = () => {
   const theme = useTheme();
@@ -18,7 +19,12 @@ const Home = () => {
           <Highlights />
         </Container>
       </Box>
-      <Box>
+      <Box bgcolor={theme.palette.alternate.main}>
+        <Container>
+          <List />
+        </Container>
+      </Box>
+      {/* <Box>
         <Container>
           <Features />
         </Container>
@@ -27,7 +33,7 @@ const Home = () => {
         <Container maxWidth={800}>
           <Rules />
         </Container>
-      </Box>
+      </Box> */}
       <Box>
         <Container>
           <Partnership />
