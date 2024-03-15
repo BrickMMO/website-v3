@@ -128,7 +128,35 @@ const GetStarted = () => {
                   <Box
                     flex={'1 1 auto'}
                     component={TextField}
+                    label="Enter your name"
+                    variant="outlined"
+                    color="primary"
+                    fullWidth
+                    height={54}
+                    error={error !== ''}
+                    helperText={error}
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                    onBlur={checkEmail}
+                  />
+                  <Box
+                    flex={'1 1 auto'}
+                    component={TextField}
                     label="Enter your email"
+                    variant="outlined"
+                    color="primary"
+                    fullWidth
+                    height={54}
+                    error={error !== ''}
+                    helperText={error}
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                    onBlur={checkEmail}
+                  />
+                  <Box
+                    flex={'1 1 auto'}
+                    component={TextField}
+                    label="Enter your message"
                     variant="outlined"
                     color="primary"
                     fullWidth
