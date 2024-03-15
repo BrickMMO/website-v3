@@ -16,6 +16,7 @@ import {
   Commissions as CommissionsView,
   CommissionsCdmo as CommissionsCdmoView,
   CommissionsHumber as CommissionsHumberView,
+  SolarCityHome as SolarCityHomeView,
   CommissionsBrevisRefero as CommissionsBrevisReferoView,
   Education as EducationView,
   Systems as SystemsView,
@@ -74,6 +75,18 @@ const Routes = () => {
             title="humber"
             {...matchProps}
             component={CommissionsHumberView}
+            layout={BrickMmoLayout}
+          />
+        ))()}
+      />
+      <Route
+        exact
+        path="/SolarCityHome"
+        element={((matchProps) => (
+          <WithLayout
+            title="Solar City"
+            {...matchProps}
+            component={SolarCityHomeView}
             layout={BrickMmoLayout}
           />
         ))()}
