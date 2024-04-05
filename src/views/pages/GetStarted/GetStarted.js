@@ -19,6 +19,7 @@ import Container from 'common/Container';
 import { light as lightGreen } from 'theme/palette--green';
 import axios from 'axios';
 
+
 const GetStarted = () => {
   const theme = useTheme();
   const isMd = useMediaQuery(theme.breakpoints.up('md'), {
@@ -148,7 +149,7 @@ const GetStarted = () => {
                     value={name}
                     onChange={(e) => setName(e.target.value)}
                     onBlur={checkName}
-                    marginBottom={2}
+                    marginBottom={4}
                   />
                   <Box
                     flex={'1 1 auto'}
@@ -163,7 +164,7 @@ const GetStarted = () => {
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     onBlur={checkEmail}
-                    marginBottom={2}
+                    marginBottom={4}
                   />
                   <Box
                     flex={'1 1 auto'}
@@ -178,7 +179,7 @@ const GetStarted = () => {
                     value={thankYouMessage}
                     onChange={(e) => setThankYouMessage(e.target.value)}
                     onBlur={checkEmail}
-                    marginBottom={2}
+                    marginBottom={4}
                   />
                   <Box
                     component={Button}
