@@ -26,9 +26,19 @@ const GetStarted = () => {
   });
 
   // STATES
+  const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [error, setError] = useState('');
   const [thankYouMessage, setThankYouMessage] = useState('');
+
+  const checkName = () => {
+    if (!name) {
+      setError('Name cannot be empty');
+      return false;
+    }
+    setError('');
+    return true;
+  };
 
   const checkEmail = () => {
     if (!email) {
@@ -121,7 +131,7 @@ const GetStarted = () => {
               <form noValidate autoComplete="off">
                 <Box
                   display="flex"
-                  flexDirection={{ xs: 'column', sm: 'row' }}
+                  flexDirection={{ xs: 'column' }}
                   alignItems={{ xs: 'stretched', sm: 'flex-start' }}
                   marginBottom={4}
                 >
@@ -135,9 +145,10 @@ const GetStarted = () => {
                     height={54}
                     error={error !== ''}
                     helperText={error}
-                    value={email}
-                    onChange={(e) => setEmail(e.target.value)}
-                    onBlur={checkEmail}
+                    value={name}
+                    onChange={(e) => setName(e.target.value)}
+                    onBlur={checkName}
+                    marginBottom={2}
                   />
                   <Box
                     flex={'1 1 auto'}
@@ -152,6 +163,7 @@ const GetStarted = () => {
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     onBlur={checkEmail}
+                    marginBottom={2}
                   />
                   <Box
                     flex={'1 1 auto'}
@@ -163,9 +175,10 @@ const GetStarted = () => {
                     height={54}
                     error={error !== ''}
                     helperText={error}
-                    value={email}
-                    onChange={(e) => setEmail(e.target.value)}
+                    value={thankYouMessage}
+                    onChange={(e) => setThankYouMessage(e.target.value)}
                     onBlur={checkEmail}
+                    marginBottom={2}
                   />
                   <Box
                     component={Button}
