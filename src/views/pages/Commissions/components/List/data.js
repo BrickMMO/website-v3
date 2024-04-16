@@ -23,26 +23,12 @@ export const commissions = [
     subtitle: 'A custom logo build for our industry partner!',
   },
   {
-    media: 'images/commissions/humber.png',
-    title: 'Humber College',
-    subtitle: 'A custom logo build for our education partner!',
+    media: 'images/commissions/solar-city-one.jpg',
+    title: 'Solar City',
+    subtitle: 'A city made up of Legos!',
     link: {
-      text: 'Logo Details',
-      url: '/commissions-humber',
+      text: 'City Details',
+      url: '/SolarCityHome',
     },
-  },
-  {
-    media: 'images/commissions/cdmo.png',
-    title: 'Bio 2024',
-    subtitle: 'A minifig scale CDMO facility for the Bio 2024 conference!',
-    link: {
-      text: 'Build Details',
-      url: '/commissions-cdmo',
-    },
-  },
-  {
-    media: 'images/commissions/brevisrefero.png',
-    title: 'BrevisRefero',
-    subtitle: 'A custom logo build for our industry partner!',
-  },
+  }
 ];
