@@ -22,4 +22,13 @@ export const commissions = [
     title: 'BrevisRefero',
     subtitle: 'A custom logo build for our industry partner!',
   },
+  {
+    media: 'images/commissions/solar-city-one.jpg',
+    title: 'Solar City',
+    subtitle: 'A city made up of Legos!',
+    link: {
+      text: 'City Details',
+      url: '/SolarCityHome',
+    },
+  }
 ];

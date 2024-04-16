@@ -19,6 +19,7 @@ import Container from 'common/Container';
 import { light as lightGreen } from 'theme/palette--green';
 import axios from 'axios';
 
+
 const GetStarted = () => {
   const theme = useTheme();
   const isMd = useMediaQuery(theme.breakpoints.up('md'), {
@@ -26,9 +27,19 @@ const GetStarted = () => {
   });
 
   // STATES
+  const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [error, setError] = useState('');
   const [thankYouMessage, setThankYouMessage] = useState('');
+
+  const checkName = () => {
+    if (!name) {
+      setError('Name cannot be empty');
+      return false;
+    }
+    setError('');
+    return true;
+  };
 
   const checkEmail = () => {
     if (!email) {
@@ -121,10 +132,25 @@ const GetStarted = () => {
               <form noValidate autoComplete="off">
                 <Box
                   display="flex"
-                  flexDirection={{ xs: 'column', sm: 'row' }}
+                  flexDirection={{ xs: 'column' }}
                   alignItems={{ xs: 'stretched', sm: 'flex-start' }}
                   marginBottom={4}
                 >
+                  <Box
+                    flex={'1 1 auto'}
+                    component={TextField}
+                    label="Enter your name"
+                    variant="outlined"
+                    color="primary"
+                    fullWidth
+                    height={54}
+                    error={error !== ''}
+                    helperText={error}
+                    value={name}
+                    onChange={(e) => setName(e.target.value)}
+                    onBlur={checkName}
+                    marginBottom={4}
+                  />
                   <Box
                     flex={'1 1 auto'}
                     component={TextField}
@@ -138,6 +164,22 @@ const GetStarted = () => {
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     onBlur={checkEmail}
+                    marginBottom={4}
+                  />
+                  <Box
+                    flex={'1 1 auto'}
+                    component={TextField}
+                    label="Enter your message"
+                    variant="outlined"
+                    color="primary"
+                    fullWidth
+                    height={54}
+                    error={error !== ''}
+                    helperText={error}
+                    value={thankYouMessage}
+                    onChange={(e) => setThankYouMessage(e.target.value)}
+                    onBlur={checkEmail}
+                    marginBottom={4}
                   />
                   <Box
                     component={Button}
