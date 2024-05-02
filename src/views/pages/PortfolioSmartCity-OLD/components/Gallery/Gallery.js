@@ -14,12 +14,12 @@ const Gallery = () => {
 
   const photos = [
     {
-      src: 'images/portfolio/humber-original.png',
+      src: 'images/portfolio/solar-city-one.jpg',
       rows: 1,
       cols: 1,
     },
     {
-      src: 'images/portfolio/humber-pixels.png',
+      src: 'images/portfolio/solar-city-two.jpg',
       rows: 1,
       cols: 1,
     },

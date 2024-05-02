@@ -18,7 +18,7 @@ const Hero = () => {
           fontWeight: 700,
         }}
       >
-        Humber College Logo
+        Smart City
       </Typography>
       <Box>
         <Typography
@@ -29,7 +29,7 @@ const Hero = () => {
             fontWeight: 600,
           }}
         >
-          75cm x 75cm greebled version of the Humber College logo.
+          A city builded using legos and coding to make it work.
         </Typography>
       </Box>
     </Box>
@@ -41,7 +41,7 @@ const Hero = () => {
       height={'auto'}
       position={'relative'}
       sx={{
-        backgroundImage: 'url("images/portfolio/humber-background.jpg")',
+        backgroundImage: 'url("images/portfolio/solar-city-hero.jpg")',
         backgroundSize: 'cover',
         backgroundPosition: 'center right',
         backgroundAttachment: 'fixed',
