@@ -20,7 +20,7 @@ export const portfolio = [
   {
     media: 'images/portfolio/solar-city-one.jpg',
     title: 'Smart City',
-    subtitle: 'A fully functional smart city.',
+    subtitle: 'A minifig scale fully functional smart city.',
     link: {
       text: 'Project Details',
       url: '/project-smart-city',

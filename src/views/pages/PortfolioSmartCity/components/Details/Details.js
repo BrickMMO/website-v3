@@ -34,7 +34,7 @@ const Details = () => {
           >
             Portfolio
           </Link>
-          <Typography>Humber College Logo</Typography>
+          <Typography>Smart City</Typography>
         </Breadcrumbs>
 
         <SectionFlag></SectionFlag>

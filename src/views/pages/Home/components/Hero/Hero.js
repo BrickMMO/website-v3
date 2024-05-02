@@ -59,7 +59,11 @@ const Hero = () => {
             sx={{ fontWeight: 400 }}
           >
             View the{' '}
-            <Link variant="inherit" component={LinkRouter} to="/smart-city">
+            <Link
+              variant="inherit"
+              component={LinkRouter}
+              to="/portfolio-smart-city"
+            >
               {' '}
               Smart City Project
             </Link>

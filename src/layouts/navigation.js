@@ -11,19 +11,25 @@ export const pages = [
         title: 'Education',
         href: '/education',
       },
-
-      {
-        title: 'Systems',
-        href: '/systems',
-      },
       {
         title: 'Research',
         href: '/research',
       },
-
       {
         title: 'Portfolio',
         href: '/portfolio',
+      },
+      {
+        title: 'Greebled Logos',
+        href: '/portfolio-logos',
+      },
+      {
+        title: 'Bio 2024',
+        href: '/portfolio-bio-2024',
+      },
+      {
+        title: 'Smart City',
+        href: '/portfolio-smart-city',
       },
       {
         title: 'Get Started',
