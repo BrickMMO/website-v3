@@ -38,8 +38,8 @@ const Topbar = ({ onSidebarOpen }) => {
           </Link>
         </Box>
         <Box marginX={2}>
-          <Link to="/commissions" component={LinkRouter} underline="none">
-            Commissions
+          <Link to="/portfolio" component={LinkRouter} underline="none">
+            Portfolio
           </Link>
         </Box>
         <Box marginLeft={2}>

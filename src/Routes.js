@@ -13,11 +13,11 @@ import {
 // Landing pages
 import {
   Home as HomeView,
-  Commissions as CommissionsView,
-  CommissionsCdmo as CommissionsCdmoView,
-  CommissionsHumber as CommissionsHumberView,
-  SolarCityHome as SolarCityHomeView,
-  CommissionsBrevisRefero as CommissionsBrevisReferoView,
+  Portfolio as PortfolioView,
+  PortfolioCdmo as PortfolioCdmoView,
+  PortfolioLogos as PortfolioLogosView,
+  PortfolioSmartCity as PortfolioSmartCityView,
+  PortfolioBrevisRefero as PortfolioBrevisReferoView,
   Education as EducationView,
   Systems as SystemsView,
   // SystemPanel as SystemPanelView,
@@ -35,7 +35,7 @@ const Routes = () => {
         path="/"
         element={((matchProps) => (
           <WithLayout
-            title="index"
+            title="Home"
             {...matchProps}
             component={HomeView}
             layout={BrickMmoLayout}
@@ -57,60 +57,60 @@ const Routes = () => {
 
       <Route
         exact
-        path="/commissions"
+        path="/portfolio"
         element={((matchProps) => (
           <WithLayout
-            title="commissions"
+            title="Portfolio"
             {...matchProps}
-            component={CommissionsView}
+            component={PortfolioView}
             layout={BrickMmoLayout}
           />
         ))()}
       />
       <Route
         exact
-        path="/commissions-humber"
+        path="/portfolio-logos"
         element={((matchProps) => (
           <WithLayout
-            title="humber"
+            title="Logos"
             {...matchProps}
-            component={CommissionsHumberView}
+            component={PortfolioLogosView}
             layout={BrickMmoLayout}
           />
         ))()}
       />
       <Route
         exact
-        path="/SolarCityHome"
+        path="/portfolio-smart-city"
         element={((matchProps) => (
           <WithLayout
-            title="Solar City"
+            title="Smart City"
             {...matchProps}
-            component={SolarCityHomeView}
+            component={PortfolioSmartCityView}
             layout={BrickMmoLayout}
           />
         ))()}
       />
       <Route
         exact
-        path="/commissions-cdmo"
+        path="/portfolio-bio-2024"
         element={((matchProps) => (
           <WithLayout
-            title="cdmo"
+            title="Bio 2024"
             {...matchProps}
-            component={CommissionsCdmoView}
+            component={PortfolioCdmoView}
             layout={BrickMmoLayout}
           />
         ))()}
       />
       <Route
         exact
-        path="/commissions-brevisrefero"
+        path="/portfolio-brevisrefero"
         element={((matchProps) => (
           <WithLayout
             title="brevisrefero"
             {...matchProps}
-            component={CommissionsBrevisReferoView}
+            component={PortfolioBrevisReferoView}
             layout={BrickMmoLayout}
           />
         ))()}

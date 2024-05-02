@@ -2,8 +2,8 @@ import React from 'react';
 import { useTheme } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import Container from 'common/Container';
-import { Rules, Features, Partnership, Hero, Highlights } from './components';
-import List from '../Commissions/components/List';
+import { Partnership, Hero, Highlights } from './components';
+import List from '../Portfolio/components/List';
 
 const Home = () => {
   const theme = useTheme();

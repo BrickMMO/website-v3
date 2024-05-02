@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import { Link as LinkRouter } from 'react-router-dom';
-import { HashLink as LinkHash } from 'react-router-hash-link';
+//  import { HashLink as LinkHash } from 'react-router-hash-link';
 
 import Box from '@mui/material/Box';
 import Link from '@mui/material/Link';
@@ -32,7 +32,7 @@ const Hero = () => {
               fontWeight: 600,
             }}
           >
-            A Smart City Education Platform.
+            Interactive Educational Experiences
           </Typography>
 
           <Link
@@ -49,7 +49,7 @@ const Hero = () => {
             color="textSecondary"
             sx={{ fontWeight: 400 }}
           >
-            Built with only using LEGO® bricks.
+            Built using LEGO® bricks.
           </Typography>
 
           <Typography
@@ -59,9 +59,9 @@ const Hero = () => {
             sx={{ fontWeight: 400 }}
           >
             View the{' '}
-            <Link variant="inherit" component={LinkHash} to="/#rules">
+            <Link variant="inherit" component={LinkRouter} to="/smart-city">
               {' '}
-              Rules of BrickMMO and Exceptions
+              Smart City Project
             </Link>
             .
           </Typography>

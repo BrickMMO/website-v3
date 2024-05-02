@@ -1,10 +1,10 @@
 export { default as Home } from './Home';
 export { default as Systems } from './Systems';
-export { default as Commissions } from './Commissions';
-export { default as CommissionsCdmo } from './CommissionsCdmo';
-export { default as CommissionsHumber } from './CommissionsHumber';
-export { default as SolarCityHome } from './SolarCityHome';
-export { default as CommissionsBrevisRefero } from './CommissionsBrevisRefero';
+export { default as Portfolio } from './Portfolio';
+export { default as PortfolioCdmo } from './PortfolioCdmo';
+export { default as PortfolioLogos } from './PortfolioLogos';
+export { default as PortfolioSmartCity } from './PortfolioSmartCity';
+export { default as PortfolioBrevisRefero } from './PortfolioBrevisRefero';
 export { default as Education } from './Education';
 export { default as Research } from './Research';
 export { default as GetStarted } from './GetStarted';

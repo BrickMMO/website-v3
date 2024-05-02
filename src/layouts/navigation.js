@@ -22,8 +22,8 @@ export const pages = [
       },
 
       {
-        title: 'Commissions',
-        href: '/commissions',
+        title: 'Portfolio',
+        href: '/portfolio',
       },
       {
         title: 'Get Started',
