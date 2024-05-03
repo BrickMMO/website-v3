@@ -105,22 +105,10 @@ const Routes = () => {
       />
       <Route
         exact
-        path="/portfolio-brevisrefero"
-        element={((matchProps) => (
-          <WithLayout
-            title="brevisrefero"
-            {...matchProps}
-            component={PortfolioBrevisReferoView}
-            layout={BrickMmoLayout}
-          />
-        ))()}
-      />
-      <Route
-        exact
         path="/education"
         element={((matchProps) => (
           <WithLayout
-            title="education"
+            title="Education"
             {...matchProps}
             component={EducationView}
             layout={BrickMmoLayout}
@@ -132,7 +120,7 @@ const Routes = () => {
         path="/systems"
         element={((matchProps) => (
           <WithLayout
-            title="systems"
+            title="Systems"
             {...matchProps}
             component={SystemsView}
             layout={BrickMmoLayout}
@@ -144,7 +132,7 @@ const Routes = () => {
         path="/research"
         element={((matchProps) => (
           <WithLayout
-            title="research"
+            title="Research"
             {...matchProps}
             component={ResearchView}
             layout={BrickMmoLayout}
@@ -156,7 +144,7 @@ const Routes = () => {
         path="/get-started"
         element={((matchProps) => (
           <WithLayout
-            title="get started"
+            title="Get Started"
             {...matchProps}
             component={GetStartedView}
             layout={BrickMmoLayout}

@@ -4,7 +4,6 @@ export { default as Portfolio } from './Portfolio';
 export { default as PortfolioCdmo } from './PortfolioCdmo';
 export { default as PortfolioLogos } from './PortfolioLogos';
 export { default as PortfolioSmartCity } from './PortfolioSmartCity';
-export { default as PortfolioBrevisRefero } from './PortfolioBrevisRefero';
 export { default as Education } from './Education';
 export { default as Research } from './Research';
 export { default as GetStarted } from './GetStarted';
