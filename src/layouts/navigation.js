@@ -16,6 +16,16 @@ export const pages = [
         href: '/research',
       },
       {
+        title: 'Contact Us',
+        href: '/contact',
+      },
+    ],
+  },
+  {
+    title: 'Portfolio',
+    id: 'portfolio',
+    pages: [
+      {
         title: 'Portfolio',
         href: '/portfolio',
       },
@@ -30,10 +40,6 @@ export const pages = [
       {
         title: 'Smart City',
         href: '/portfolio-smart-city',
-      },
-      {
-        title: 'Contact Us',
-        href: '/contact',
       },
     ],
   },
