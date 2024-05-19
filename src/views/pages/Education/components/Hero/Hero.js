@@ -40,7 +40,7 @@ const Hero = () => {
             sx={{ fontWeight: 400 }}
           >
             View the{' '}
-            <Link component={LinkRouter} to="https://wic.brickmmo.com">
+            <Link component={LinkRouter} to="https://wic.codeadam.ca">
               Workplace Integrated Classroom (WIC)
             </Link>{' '}
             learning framework.

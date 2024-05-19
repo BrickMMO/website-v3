@@ -15,14 +15,13 @@ import { grants } from './data.js';
 const Grants = () => {
   return (
     <Box>
-      <SectionFlag>Grants</SectionFlag>
       <SectionTitle>Research Funding</SectionTitle>
       <SectionSubTitle>
         BrickMMO has received funding from{' '}
         <Link to="https://humber.ca/research/sotl" component={LinkRouter}>
           Cultivate
         </Link>
-        ,{' '}
+        , <br />
         <Link to="https://codeadam.ca" component={LinkRouter}>
           Academic Plan Priority 3
         </Link>

@@ -24,7 +24,6 @@ const Systems = () => {
   const theme = useTheme();
   return (
     <Box>
-      <SectionFlag>Systems</SectionFlag>
       <SectionTitle>Redeveloping Real World Systems</SectionTitle>
       <SectionImage src="/images/systems.png" />
       <SectionSubTitle>

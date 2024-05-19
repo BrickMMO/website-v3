@@ -23,7 +23,6 @@ const Wic = () => {
 
   return (
     <Box>
-      <SectionFlag>Teaching Method</SectionFlag>
       <SectionTitle>Workplace Integrated Classroom</SectionTitle>
       <SectionSubTitle>
         Providing students with a close to industry workplace experience while
@@ -46,14 +45,13 @@ const Wic = () => {
           },
           {
             title: 'Teamwork',
-            subtitle:
-              'Students participate in a variety of different teams as members and leaders. ',
+            subtitle: 'Students participate in teams as members and leaders.',
             icon: <GroupsIcon />,
           },
           {
             title: 'Learn by Doing',
             subtitle:
-              'Students are taught by being assigned progressively harder and harder tasks in a variety of projects in different stages of development.',
+              'Students are taught by being assigned progressively more dificult tasks, in a variety of projects, in different stages of development.',
             icon: <WorkIcon />,
           },
         ].map((item, i) => (
@@ -71,8 +69,8 @@ const Wic = () => {
                   component={Avatar}
                   width={50}
                   height={50}
-                  marginBottom={2}
-                  marginRight={2}
+                  marginBottom={3}
+                  marginRight={3}
                   bgcolor={alpha(theme.palette.primary.main, 0.1)}
                   color={theme.palette.primary.main}
                 >
@@ -89,7 +87,7 @@ const Wic = () => {
                   sx: { fontWeight: 700 },
                 }}
                 sx={{
-                  margin: 0,
+                  marginBottom: 2,
                 }}
               />
             </ListItem>
@@ -97,10 +95,7 @@ const Wic = () => {
         ))}
       </Grid>
 
-      <SectionEndButton
-        text="Read the White Paper"
-        href="https://wic.brickmmo.com"
-      />
+      <SectionEndButton text="WIC Whitepaper" href="https://wic.codeadam.ca" />
     </Box>
   );
 };

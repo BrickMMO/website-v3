@@ -20,11 +20,11 @@ const Technology = () => {
 
   return (
     <Box>
-      <SectionFlag>Students</SectionFlag>
       <SectionTitle>70% of Code was Written by Students</SectionTitle>
       <SectionSubTitle>
-        Providing students with experience in many popular programming
-        languages, frameworks, and libraries.
+        Providing students with experience in many popular
+        <br />
+        programming languages, frameworks, and libraries.
       </SectionSubTitle>
 
       <Grid container spacing={2}>

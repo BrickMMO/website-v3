@@ -80,7 +80,7 @@ const Priority3 = () => {
                         variant="inherit"
                         color={theme.palette.primary.main}
                       >
-                        WIC White paper
+                        WIC Whitepaper
                       </Link>
                       .
                     </Typography>

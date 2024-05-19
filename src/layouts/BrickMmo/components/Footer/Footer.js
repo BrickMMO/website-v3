@@ -73,26 +73,14 @@ const Footer = () => {
           </Box>
 
           <Box display="flex" flexWrap="wrap" alignItems="center">
-            {/*
-            <Box marginTop={1} marginRight={2}>
-              <Button
-                variant="contained"
-                color="secondary"
-                component={LinkRouter}
-                to="https://docs.brickmmo.com"
-              >
-                Documentation
-              </Button>
-            </Box>
-            */}
             <Box marginTop={1}>
               <Button
                 variant="outlined"
                 color="secondary"
                 component={LinkRouter}
-                to="/get-started"
+                to="/contact"
               >
-                Get Started
+                Contact Us
               </Button>
             </Box>
           </Box>

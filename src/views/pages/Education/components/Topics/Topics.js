@@ -10,7 +10,6 @@ import { topics } from './data.js';
 const Topics = () => {
   return (
     <Box>
-      <SectionFlag>Technology</SectionFlag>
       <SectionImageList data={topics} folder="/images/topics/" />
     </Box>
   );

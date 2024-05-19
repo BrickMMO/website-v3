@@ -21,7 +21,6 @@ import { portfolio } from './data.js';
 const List = () => {
   return (
     <Box>
-      <SectionFlag>Portfolio</SectionFlag>
       <SectionTitle>Engage, Interacte, Learn</SectionTitle>
       <SectionSubTitle>Pushing LEGO&reg; Bricks Futher</SectionSubTitle>
 

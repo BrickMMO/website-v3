@@ -13,7 +13,6 @@ import { concepts } from './data.js';
 const Reason = () => {
   return (
     <Box>
-      <SectionFlag>For Education</SectionFlag>
       <SectionImage src="/images/map.png" />
       <SectionTitle>
         BrickMMO was Developed out of a Desire to Teach Code Differently

@@ -29,27 +29,27 @@ const Education = () => {
           <Counter />
         </Container>
       </Box>
-      <Box>
+      <Box bgcolor={theme.palette.alternate.main}>
         <Container>
           <Reason />
         </Container>
       </Box>
-      <Box bgcolor={theme.palette.alternate.main}>
+      <Box>
         <Container>
           <Technology />
         </Container>
       </Box>
-      <Box>
+      <Box bgcolor={theme.palette.alternate.main}>
         <Container>
           <Topics />
         </Container>
       </Box>
-      <Box bgcolor={theme.palette.alternate.main}>
+      <Box>
         <Container>
           <Programs />
         </Container>
       </Box>
-      <Box>
+      <Box bgcolor={theme.palette.alternate.main}>
         <Container>
           <Wic />
         </Container>
