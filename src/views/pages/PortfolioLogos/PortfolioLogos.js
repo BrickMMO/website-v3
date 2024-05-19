@@ -6,7 +6,14 @@ import Box from '@mui/material/Box';
 
 import Container from 'common/Container';
 
-import { Hero, Details, Counter, Gallery } from './components';
+import {
+  Hero,
+  Details,
+  Counter,
+  Gallery,
+  HumberGallery,
+  HumberDetails,
+} from './components';
 
 const PortfolioLogos = () => {
   const theme = useTheme();
@@ -26,6 +33,16 @@ const PortfolioLogos = () => {
       <Box>
         <Container>
           <Details />
+        </Container>
+      </Box>
+      <Box bgcolor={theme.palette.alternate.main} position={'relative'}>
+        <Container>
+          <HumberGallery />
+        </Container>
+      </Box>
+      <Box>
+        <Container>
+          <HumberDetails />
         </Container>
       </Box>
     </Box>

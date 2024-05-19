@@ -18,7 +18,7 @@ const Hero = () => {
           fontWeight: 700,
         }}
       >
-        Humber College Logo
+        Company Logos
       </Typography>
       <Box>
         <Typography
@@ -29,7 +29,7 @@ const Hero = () => {
             fontWeight: 600,
           }}
         >
-          75cm x 75cm greebled version of the Humber College logo.
+          Greebled version of company logos.
         </Typography>
       </Box>
     </Box>

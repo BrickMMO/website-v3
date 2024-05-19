@@ -123,7 +123,7 @@ const Priority3 = () => {
               height="100%"
               width="100%"
               minHeight={300}
-              image="images/grants/city-satellite.jpg"
+              image="images/grants/hackathon-media.jpg"
             />
           </Box>
         </Grid>

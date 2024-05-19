@@ -34,20 +34,28 @@ const Details = () => {
           >
             Portfolio
           </Link>
-          <Typography>Humber College Logo</Typography>
+          <Typography>Company Logos</Typography>
         </Breadcrumbs>
 
         <SectionFlag></SectionFlag>
-        <SectionTitle>Humber College Logo</SectionTitle>
+        <SectionTitle>Company Logos</SectionTitle>
         <Typography
           component="p"
           variant={'h6'}
           fontWeight={400}
           marginBottom={2}
         >
-          A greebled version of the Humber College logo measuring approximately
-          75cm x 75cm. This logo is hanging in the BrickMMO project room at
-          Humber College.
+          Coverting company logos to LEGO® bricks using greebling. Brands
+          include our collaboration partners, sponsors of the{' '}
+          <Link
+            underline="hover"
+            to="/portfolio-bio-2024"
+            component={LinkRouter}
+            color="primary"
+          >
+            Bio 2024
+          </Link>{' '}
+          project, and other popular brands.
         </Typography>
         <Typography
           component="p"
@@ -66,15 +74,6 @@ const Details = () => {
             logo-greeble
           </Link>{' '}
           GitHub repo.
-        </Typography>
-        <Typography
-          component="p"
-          variant={'h6'}
-          fontWeight={400}
-          marginBottom={2}
-        >
-          This is the first of four logos being converted to LEGO® bricks and
-          greeble.
         </Typography>
       </Container>
     </Box>

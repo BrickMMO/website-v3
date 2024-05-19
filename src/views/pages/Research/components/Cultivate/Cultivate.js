@@ -110,7 +110,7 @@ const Cultivate = () => {
               height="100%"
               width="100%"
               minHeight={300}
-              image="images/grants/baseplates.jpg"
+              image="images/grants/city-police.jpg"
             />
           </Box>
         </Grid>

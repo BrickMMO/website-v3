@@ -39,19 +39,6 @@ const Greenfield = () => {
           </Box>
           <List disablePadding>
             {[
-              /*
-              {
-                icon: <InfoIcon />,
-                title: 'Details',
-                subtitle: (
-                  <Typography fontSize="small">
-                    Amount: $60,000
-                    <br />
-                    Dates: Winter 2024
-                  </Typography>
-                ),
-              },
-              */
               {
                 icon: <HelpIcon />,
                 title: 'Research Question',
@@ -109,7 +96,7 @@ const Greenfield = () => {
               height="100%"
               width="100%"
               minHeight={300}
-              image="images/grants/city-block.jpg"
+              image="images/grants/city-street.jpg"
             />
           </Box>
         </Grid>
