@@ -33,7 +33,7 @@ const Footer = () => {
           <Box display="flex" flexWrap="wrap" alignItems="center">
             <IconButton
               component={LinkRouter}
-              to="https://www.youtube.com/channel/UCJJPeP10HxC1qwX_paoHepQ"
+              to="https://www.instagram.com/brickmmo/"
               marginRight={1}
             >
               <InstagramIcon color="primary" />

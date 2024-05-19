@@ -21,9 +21,9 @@ import { portfolio } from './data.js';
 const List = () => {
   return (
     <Box>
-      <SectionFlag>Commisions</SectionFlag>
-      <SectionTitle>Custom Commissioned Projects </SectionTitle>
-      <SectionSubTitle>Check out our current portfolio:</SectionSubTitle>
+      <SectionFlag>Portfolio</SectionFlag>
+      <SectionTitle>Engage, Interacte, Learn</SectionTitle>
+      <SectionSubTitle>Pushing LEGO&reg; Bricks Futher</SectionSubTitle>
 
       <Grid container spacing={4} marginTop={3}>
         {portfolio.map((item, i) => (

@@ -42,6 +42,7 @@ const Routes = () => {
           />
         ))()}
       />
+      {/*       
       <Route
         exact
         path="/bio"
@@ -53,8 +54,7 @@ const Routes = () => {
             layout={BrickMmoLayout}
           />
         ))()}
-      />
-
+      /> */}
       <Route
         exact
         path="/portfolio"

@@ -1,8 +1,8 @@
 export const portfolio = [
   {
     media: 'images/portfolio/humber.png',
-    title: 'Greebled Logos',
-    subtitle: 'Custom greebled logos.',
+    title: 'The Logo Project',
+    subtitle: 'Converting logos to greeble.',
     link: {
       text: 'Project Details',
       url: '/portfolio-logos',
@@ -11,7 +11,8 @@ export const portfolio = [
   {
     media: 'images/portfolio/cdmo.png',
     title: 'Bio 2024',
-    subtitle: 'A minifig scale CDMO facility for the Bio 2024 conference.',
+    subtitle:
+      'A 1:25 scale biomanufactuing facility for the Bio 2024 conference.',
     link: {
       text: 'Project Details',
       url: '/portfolio-bio-2024',
@@ -20,10 +21,11 @@ export const portfolio = [
   {
     media: 'images/portfolio/solar-city-one.jpg',
     title: 'Smart City',
-    subtitle: 'A minifig scale fully functional smart city.',
+    subtitle:
+      'A 1:25 scale fully functional smart city built with LEGO® bricks.',
     link: {
       text: 'Project Details',
-      url: '/project-smart-city',
+      url: '/portfolio-smart-city',
     },
   },
 ];
