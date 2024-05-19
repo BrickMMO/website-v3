@@ -56,7 +56,7 @@ const SignUp = () => {
   const handleSubmitButton = async () => {
     try {
       const response = await axios.post(
-        `${process.env.REACT_APP_BASEURL}/email/send`,
+        `${process.env.REACT_APP_API}/email/send`,
         {
           name,
           email,

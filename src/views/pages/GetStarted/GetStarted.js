@@ -19,7 +19,6 @@ import Container from 'common/Container';
 import { light as lightGreen } from 'theme/palette--green';
 import axios from 'axios';
 
-
 const GetStarted = () => {
   const theme = useTheme();
   const isMd = useMediaQuery(theme.breakpoints.up('md'), {
@@ -57,7 +56,7 @@ const GetStarted = () => {
   const handleSubmitButton = async () => {
     try {
       const response = await axios.post(
-        `${process.env.REACT_APP_BASEURL}/email/send`,
+        `${process.env.REACT_APP_API}/email/send`,
         {
           name: 'Getting Started Submission Form',
           email,
