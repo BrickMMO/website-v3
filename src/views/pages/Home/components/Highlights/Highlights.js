@@ -23,8 +23,8 @@ const Highlights = () => {
           subtitle:
             'BrickMMO is programmed so anyone can join in and build their own interactive smart city!',
           link: {
-            text: 'Get Started',
-            url: '/get-started',
+            text: 'Smart City',
+            url: '/portfolio-smart-city',
           },
           icon: <CodeIcon />,
         },

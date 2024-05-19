@@ -27,8 +27,11 @@ const SignUp = () => {
 
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
+  const [comments, setComments] = useState('');
   const [nameError, setNameError] = useState('');
   const [emailError, setEmailError] = useState('');
+  const [commentsError, setCommentsError] = useState('');
+
   const [thankYouMessage, setThankYouMessage] = useState('');
 
   const checkName = () => {
@@ -53,6 +56,15 @@ const SignUp = () => {
     return true;
   };
 
+  const checkComments = () => {
+    if (!name) {
+      setCommentsError('Comments cannot be empty');
+      return false;
+    }
+    setCommentsError('');
+    return true;
+  };
+
   const handleSubmitButton = async () => {
     try {
       const response = await axios.post(
@@ -60,6 +72,7 @@ const SignUp = () => {
         {
           name,
           email,
+          comments,
         },
       );
       const { data } = response;
@@ -67,6 +80,7 @@ const SignUp = () => {
       renderThankYouMessage();
       setEmail('');
       setName('');
+      setComments('');
     } catch (err) {
       console.log(err);
     }
@@ -111,7 +125,7 @@ const SignUp = () => {
               gutterBottom
               sx={{ fontWeight: 700 }}
             >
-              CDMO Facility at BIO2024
+              Contact Us
             </Typography>
             <Typography
               component="p"
@@ -119,7 +133,9 @@ const SignUp = () => {
               align={isMd ? 'left' : 'center'}
               marginBottom={2}
             >
-              Interested in sponsoring the BrickMMO CDMO build?
+              Interested in a custom build?
+              <br />
+              Reach out and we'll have a conversation.
             </Typography>
             <form noValidate autoComplete="off">
               <Box
@@ -148,6 +164,19 @@ const SignUp = () => {
                 onChange={(e) => setEmail(e.target.value)}
                 onBlur={checkEmail}
               />
+              <Box
+                component={TextField}
+                label="Comments"
+                variant="outlined"
+                color="primary"
+                fullWidth
+                marginBottom={4}
+                error={commentsError !== ''}
+                helperText={commentsError}
+                value={comments}
+                onChange={(e) => setComments(e.target.value)}
+                onBlur={checkComments}
+              />
               {thankYouMessage?.length > 0 && (
                 <Typography
                   component="p"
@@ -164,7 +193,11 @@ const SignUp = () => {
                 size="large"
                 marginBottom={4}
                 disabled={
-                  !name || !email || nameError !== '' || emailError !== ''
+                  !name ||
+                  !email ||
+                  nameError !== '' ||
+                  emailError !== '' ||
+                  commentsError !== ''
                 }
                 onClick={() => handleSubmitButton()}
               >

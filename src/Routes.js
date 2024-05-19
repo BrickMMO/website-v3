@@ -24,7 +24,7 @@ import {
   // SystemsColours as SystemsColoursView,
   Research as ResearchView,
   GetStarted as GetStartedView,
-  Bio as BioView,
+  Contact as ContactView,
 } from './views/pages';
 
 const Routes = () => {
@@ -42,19 +42,18 @@ const Routes = () => {
           />
         ))()}
       />
-      {/*       
       <Route
         exact
-        path="/bio"
+        path="/contact"
         element={((matchProps) => (
           <WithLayout
-            title="Bio 2024"
+            title="Contact"
             {...matchProps}
-            component={BioView}
+            component={ContactView}
             layout={BrickMmoLayout}
           />
         ))()}
-      /> */}
+      />
       <Route
         exact
         path="/portfolio"
