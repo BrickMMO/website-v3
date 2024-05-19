@@ -20,7 +20,7 @@ export const pages = [
         href: '/portfolio',
       },
       {
-        title: 'Greebled Logos',
+        title: 'The Logo Project',
         href: '/portfolio-logos',
       },
       {
@@ -32,8 +32,8 @@ export const pages = [
         href: '/portfolio-smart-city',
       },
       {
-        title: 'Get Started',
-        href: '/get-started',
+        title: 'Contact Us',
+        href: '/contact',
       },
     ],
   },
