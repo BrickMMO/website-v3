@@ -18,20 +18,21 @@ const Counter = () => {
     <Grid container spacing={2}>
       {[
         {
-          number: 4,
-          title: 'Builders',
-          subtitle: 'Four BrickMMO builders and students.',
+          number: 10,
+          title: 'Brands',
+          subtitle: 'Over 10 brands converted to LEGO® bricks.',
+          suffix: '+',
         },
         {
           number: 16,
           title: 'Buiding Hours',
-          subtitle: 'Over 16 bulding hours.',
+          subtitle: 'Approximately 16 hours per logo build.',
           suffix: '+',
         },
         {
           number: 5000,
           title: 'LEGO® Bricks',
-          subtitle: 'Four baseplates and over 5000 LEGO® bricks.',
+          subtitle: '5000+ LEGO® bricks per logo build.',
           suffix: '+',
         },
       ].map((item, i) => (

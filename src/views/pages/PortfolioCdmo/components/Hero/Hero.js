@@ -29,7 +29,7 @@ const Hero = () => {
             fontWeight: 600,
           }}
         >
-          Construction of a 1:25 scale interactive biologics CDMO facility
+          Construction of a 1:25 scale biologics manufacturing facility
         </Typography>
       </Box>
     </Box>

@@ -18,18 +18,18 @@ const Counter = () => {
     <Grid container spacing={2}>
       {[
         {
-          number: 2,
+          number: 5,
           title: 'Sponsors',
-          subtitle: 'Two biologic industry sponsors.',
+          subtitle: 'Five biologic industry sponsors.',
         },
         {
-          number: 200,
+          number: 1200,
           title: 'Buiding Hours',
-          subtitle: 'Over 16 bulding hours.',
+          subtitle: 'Over 1200+ bulding hours.',
           suffix: '+',
         },
         {
-          number: 20000,
+          number: 25000,
           title: 'LEGO® Bricks',
           subtitle: '272 x 56 studs and 50 bricks tall.',
           suffix: '+',
