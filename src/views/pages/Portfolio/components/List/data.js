@@ -1,11 +1,12 @@
 export const portfolio = [
   {
-    media: 'images/portfolio/humber.png',
-    title: 'The Logo Project',
-    subtitle: 'Converting logos to greeble.',
+    media: 'images/portfolio/solar-city-one.jpg',
+    title: 'Smart City',
+    subtitle:
+      'A 1:25 scale fully functional smart city built with LEGO® bricks.',
     link: {
       text: 'Project Details',
-      url: '/portfolio-logos',
+      url: '/portfolio-smart-city',
     },
   },
   {
@@ -19,13 +20,12 @@ export const portfolio = [
     },
   },
   {
-    media: 'images/portfolio/solar-city-one.jpg',
-    title: 'Smart City',
-    subtitle:
-      'A 1:25 scale fully functional smart city built with LEGO® bricks.',
+    media: 'images/portfolio/humber.png',
+    title: 'The Logo Project',
+    subtitle: 'Converting logos to greeble.',
     link: {
       text: 'Project Details',
-      url: '/portfolio-smart-city',
+      url: '/portfolio-logos',
     },
   },
 ];

@@ -8,7 +8,6 @@ import Typography from '@mui/material/Typography';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
-import SectionFlag from 'common/SectionFlag';
 import SectionTitle from 'common/SectionTitle';
 
 import { faqs } from './data.js';
@@ -54,7 +53,6 @@ const Rules = () => {
   return (
     <Box id="rules">
       <Box marginBottom={4}>
-        <SectionFlag>Rules and Exceptions</SectionFlag>
         <SectionTitle>Rules of BrickMMO</SectionTitle>
         <Typography
           component="p"
@@ -70,7 +68,6 @@ const Rules = () => {
           The following are the only non LEGO® brand components permitted:
         </Typography>
       </Box>
-
       <ExceptionGroupItem items={faqs} />
     </Box>
   );

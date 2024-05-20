@@ -2,7 +2,6 @@ import React from 'react';
 
 import Box from '@mui/material/Box';
 
-import SectionFlag from 'common/SectionFlag';
 import SectionTitle from 'common/SectionTitle';
 import SectionSubTitle from 'common/SectionSubTitle';
 import SectionButtonList from 'common/SectionButtonList';

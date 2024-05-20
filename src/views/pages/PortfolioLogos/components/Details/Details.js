@@ -7,10 +7,8 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 
 import Link from '@mui/material/Link';
-import Breadcrumbs from '@mui/material/Breadcrumbs';
 import Container from 'common/Container';
 
-import SectionFlag from 'common/SectionFlag';
 import SectionTitle from 'common/SectionTitle';
 
 const Details = () => {
@@ -25,7 +23,6 @@ const Details = () => {
       }}
     >
       <Container paddingX={{ xs: 2, sm: 6, md: 12 }}>
-        <SectionFlag></SectionFlag>
         <SectionTitle>Company Logos</SectionTitle>
         <Typography
           component="p"

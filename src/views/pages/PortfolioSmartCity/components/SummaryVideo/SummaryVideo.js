@@ -1,21 +1,9 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
-import { useTheme } from '@mui/material/styles';
-import { Link as LinkRouter } from 'react-router-dom';
 
 import Box from '@mui/material/Box';
-import Typography from '@mui/material/Typography';
-
-import Link from '@mui/material/Link';
-import Breadcrumbs from '@mui/material/Breadcrumbs';
-import Container from 'common/Container';
-
-import SectionFlag from 'common/SectionFlag';
-import SectionTitle from 'common/SectionTitle';
 
 const SummaryVideo = () => {
-  const theme = useTheme();
-
   return (
     <Box>
       <iframe

@@ -24,16 +24,6 @@ const Home = () => {
           <List />
         </Container>
       </Box>
-      {/* <Box>
-        <Container>
-          <Features />
-        </Container>
-      </Box>
-      <Box bgcolor={theme.palette.alternate.main}>
-        <Container maxWidth={800}>
-          <Rules />
-        </Container>
-      </Box> */}
       <Box>
         <Container>
           <Partnership />

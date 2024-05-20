@@ -35,14 +35,6 @@ const Hero = () => {
             Interactive Educational Experiences
           </Typography>
 
-          <Link
-            to={{
-              pathname: '/',
-              hash: '#rules',
-              state: { fromDashboard: true },
-            }}
-          />
-
           <Typography
             variant="h6"
             component="p"

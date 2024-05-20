@@ -1,15 +1,12 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
-import { useTheme } from '@mui/material/styles';
-import Box from '@mui/material/Box';
 
+import Box from '@mui/material/Box';
 import Container from 'common/Container';
 
-import { Hero, Benefits, SignUp } from './components';
+import { SignUp } from './components';
 
 const Contact = () => {
-  const theme = useTheme();
-
   return (
     <Container>
       <Box>

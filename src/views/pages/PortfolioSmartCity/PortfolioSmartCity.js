@@ -13,6 +13,8 @@ import {
   Gallery,
   Crumbs,
   SummaryVideo,
+  Rules,
+  MapImage,
 } from './components';
 
 const PortfolioSmartCity = () => {
@@ -34,6 +36,16 @@ const PortfolioSmartCity = () => {
       <Box>
         <Container>
           <Details />
+        </Container>
+      </Box>
+      <Box bgcolor={theme.palette.alternate.main} position={'relative'}>
+        <Container>
+          <MapImage />
+        </Container>
+      </Box>
+      <Box>
+        <Container>
+          <Rules />
         </Container>
       </Box>
       <Box bgcolor={theme.palette.alternate.main} position={'relative'}>

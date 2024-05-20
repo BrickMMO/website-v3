@@ -3,28 +3,22 @@ import { Routes as ReactRoutes, Route } from 'react-router-dom';
 import WithLayout from 'WithLayout';
 
 // Available layouts
-import {
-  // Main as MainLayout,
-  // Fluid as FluidLayout,
-  // Fixed as FixedLayout,
-  BrickMmo as BrickMmoLayout,
-} from './layouts';
+import { BrickMmo as BrickMmoLayout } from './layouts';
 
-// Landing pages
 import {
   Home as HomeView,
+  Education as EducationView,
+  Research as ResearchView,
+  Contact as ContactView,
   Portfolio as PortfolioView,
   PortfolioCdmo as PortfolioCdmoView,
   PortfolioLogos as PortfolioLogosView,
   PortfolioSmartCity as PortfolioSmartCityView,
-  PortfolioBrevisRefero as PortfolioBrevisReferoView,
-  Education as EducationView,
-  Systems as SystemsView,
+
+  // Systems as SystemsView,
   // SystemPanel as SystemPanelView,
   // SystemsColours as SystemsColoursView,
-  Research as ResearchView,
-  GetStarted as GetStartedView,
-  Contact as ContactView,
+  // GetStarted as GetStartedView,
 } from './views/pages';
 
 const Routes = () => {
@@ -44,6 +38,30 @@ const Routes = () => {
       />
       <Route
         exact
+        path="/education"
+        element={((matchProps) => (
+          <WithLayout
+            title="Education"
+            {...matchProps}
+            component={EducationView}
+            layout={BrickMmoLayout}
+          />
+        ))()}
+      />
+      <Route
+        exact
+        path="/research"
+        element={((matchProps) => (
+          <WithLayout
+            title="Research"
+            {...matchProps}
+            component={ResearchView}
+            layout={BrickMmoLayout}
+          />
+        ))()}
+      />
+      <Route
+        exact
         path="/contact"
         element={((matchProps) => (
           <WithLayout
@@ -54,6 +72,7 @@ const Routes = () => {
           />
         ))()}
       />
+
       <Route
         exact
         path="/portfolio"
@@ -62,18 +81,6 @@ const Routes = () => {
             title="Portfolio"
             {...matchProps}
             component={PortfolioView}
-            layout={BrickMmoLayout}
-          />
-        ))()}
-      />
-      <Route
-        exact
-        path="/portfolio-logos"
-        element={((matchProps) => (
-          <WithLayout
-            title="Logos"
-            {...matchProps}
-            component={PortfolioLogosView}
             layout={BrickMmoLayout}
           />
         ))()}
@@ -104,17 +111,18 @@ const Routes = () => {
       />
       <Route
         exact
-        path="/education"
+        path="/portfolio-logos"
         element={((matchProps) => (
           <WithLayout
-            title="Education"
+            title="Logos"
             {...matchProps}
-            component={EducationView}
+            component={PortfolioLogosView}
             layout={BrickMmoLayout}
           />
         ))()}
       />
-      <Route
+
+      {/* <Route
         exact
         path="/systems"
         element={((matchProps) => (
@@ -122,18 +130,6 @@ const Routes = () => {
             title="Systems"
             {...matchProps}
             component={SystemsView}
-            layout={BrickMmoLayout}
-          />
-        ))()}
-      />
-      <Route
-        exact
-        path="/research"
-        element={((matchProps) => (
-          <WithLayout
-            title="Research"
-            {...matchProps}
-            component={ResearchView}
             layout={BrickMmoLayout}
           />
         ))()}
@@ -149,7 +145,7 @@ const Routes = () => {
             layout={BrickMmoLayout}
           />
         ))()}
-      />
+      /> */}
     </ReactRoutes>
   );
 };

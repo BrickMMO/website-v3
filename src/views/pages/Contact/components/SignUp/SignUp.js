@@ -1,15 +1,12 @@
 import React, { useState } from 'react';
-import axios from 'axios';
 import { useTheme } from '@mui/material/styles';
-import validator from 'validator';
 import { Link as LinkRouter } from 'react-router-dom';
 import { light as lightGreen } from '../../../../../theme/palette--green';
-import TextField from '@mui/material/TextField';
 
+import TextField from '@mui/material/TextField';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
-
 import Button from '@mui/material/Button';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import IconButton from '@mui/material/IconButton';
@@ -18,6 +15,9 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import TikTokIcon from 'svg/logos/TikTok';
+
+import axios from 'axios';
+import validator from 'validator';
 
 const SignUp = () => {
   const theme = useTheme();

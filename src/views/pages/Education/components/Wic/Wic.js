@@ -13,7 +13,6 @@ import TvIcon from '@mui/icons-material/Tv';
 import GroupsIcon from '@mui/icons-material/Groups';
 import WorkIcon from '@mui/icons-material/Work';
 
-import SectionFlag from 'common/SectionFlag';
 import SectionTitle from 'common/SectionTitle';
 import SectionSubTitle from 'common/SectionSubTitle';
 import SectionEndButton from 'common/SectionEndButton';
