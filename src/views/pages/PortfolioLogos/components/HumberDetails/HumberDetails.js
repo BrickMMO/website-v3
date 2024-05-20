@@ -33,8 +33,8 @@ const HumberDetails = () => {
           marginBottom={2}
         >
           A greebled version of the Humber College logo measuring approximately
-          75cm x 75cm. This logo is hanging in the BrickMMO project room at
-          Humber College.
+          75cm x 75cm (96 studs x 96 studs). This logo is hanging in the
+          BrickMMO project room at Humber College.
         </Typography>
       </Container>
     </Box>

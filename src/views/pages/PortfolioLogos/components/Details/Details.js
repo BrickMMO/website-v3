@@ -33,8 +33,8 @@ const Details = () => {
           fontWeight={400}
           marginBottom={2}
         >
-          Coverting company logos to LEGO® bricks using greebling. Brands
-          include our collaboration partners, sponsors of the{' '}
+          Coverting company logos to LEGO® bricks using a greebling technique.
+          Brands include our collaboration partners, sponsors of the{' '}
           <Link
             underline="hover"
             to="/portfolio-bio-2024"
