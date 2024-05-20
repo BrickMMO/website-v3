@@ -6,13 +6,14 @@ import Box from '@mui/material/Box';
 
 import Container from 'common/Container';
 
-import { Hero, Details, Counter, Gallery } from './components';
+import { Hero, Details, Counter, Gallery, Crumbs } from './components';
 
 const PortfolioCdmo = () => {
   const theme = useTheme();
   return (
     <Box>
       <Hero />
+      <Crumbs />
       <Box>
         <Container>
           <Counter />

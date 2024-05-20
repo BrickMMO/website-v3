@@ -18,7 +18,7 @@ const Hero = () => {
           fontWeight: 700,
         }}
       >
-        Biologics Manufacturing
+        Bio 2024
       </Typography>
       <Box>
         <Typography

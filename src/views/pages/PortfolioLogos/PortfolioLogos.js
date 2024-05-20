@@ -8,6 +8,7 @@ import Container from 'common/Container';
 
 import {
   Hero,
+  Crumbs,
   Details,
   Counter,
   Gallery,
@@ -20,6 +21,7 @@ const PortfolioLogos = () => {
   return (
     <Box>
       <Hero />
+      <Crumbs />
       <Box>
         <Container>
           <Counter />

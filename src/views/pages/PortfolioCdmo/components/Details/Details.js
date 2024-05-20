@@ -25,18 +25,6 @@ const Details = () => {
       }}
     >
       <Container paddingX={{ xs: 2, sm: 6, md: 12 }}>
-        <Breadcrumbs style={{ display: 'flex', justifyContent: 'center' }}>
-          <Link
-            underline="hover"
-            to="/portfolio"
-            component={LinkRouter}
-            color="primary"
-          >
-            Portfolio
-          </Link>
-          <Typography>Biologics Manufacturing</Typography>
-        </Breadcrumbs>
-
         <SectionFlag></SectionFlag>
         <SectionTitle>Biologics Manufacturing</SectionTitle>
         <Typography
