@@ -30,7 +30,7 @@ const Hero = () => {
               fontWeight: 600,
             }}
           >
-            BrickMMO is designed for education.
+            BrickMMO is Designed for Education
           </Typography>
 
           <Typography

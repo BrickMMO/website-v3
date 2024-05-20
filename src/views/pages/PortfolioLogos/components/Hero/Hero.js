@@ -18,7 +18,7 @@ const Hero = () => {
           fontWeight: 700,
         }}
       >
-        Company Logos
+        The Logo Project
       </Typography>
       <Box>
         <Typography
@@ -29,7 +29,7 @@ const Hero = () => {
             fontWeight: 600,
           }}
         >
-          Greebled version of company logos.
+          Company Logos Greebled using LEGO® Bricks
         </Typography>
       </Box>
     </Box>

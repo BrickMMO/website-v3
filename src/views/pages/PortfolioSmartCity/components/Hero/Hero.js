@@ -29,7 +29,7 @@ const Hero = () => {
             fontWeight: 600,
           }}
         >
-          A city builded using legos and coding to make it work.
+          A Smart City Development Platform Built using LEGO® Bricks
         </Typography>
       </Box>
     </Box>

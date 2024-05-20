@@ -30,7 +30,7 @@ const Hero = () => {
               fontWeight: 600,
             }}
           >
-            Custom interactive projects using LEGO&reg; bricks.
+            Interactive Experiences built with LEGO&reg; Bricks
           </Typography>
         </Box>
       </Grid>
