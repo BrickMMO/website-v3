@@ -6,7 +6,14 @@ import Box from '@mui/material/Box';
 
 import Container from 'common/Container';
 
-import { Hero, Details, Counter, Gallery, Crumbs } from './components';
+import {
+  Hero,
+  Details,
+  Counter,
+  Gallery,
+  Crumbs,
+  SummaryVideo,
+} from './components';
 
 const PortfolioSmartCity = () => {
   const theme = useTheme();
@@ -21,12 +28,17 @@ const PortfolioSmartCity = () => {
       </Box>
       <Box bgcolor={theme.palette.alternate.main} position={'relative'}>
         <Container>
-          <Gallery />
+          <SummaryVideo />
         </Container>
       </Box>
       <Box>
         <Container>
           <Details />
+        </Container>
+      </Box>
+      <Box bgcolor={theme.palette.alternate.main} position={'relative'}>
+        <Container>
+          <Gallery />
         </Container>
       </Box>
     </Box>

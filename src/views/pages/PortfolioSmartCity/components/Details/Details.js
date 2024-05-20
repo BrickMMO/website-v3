@@ -26,7 +26,7 @@ const Details = () => {
     >
       <Container paddingX={{ xs: 2, sm: 6, md: 12 }}>
         <SectionFlag></SectionFlag>
-        <SectionTitle>Humber College Logo</SectionTitle>
+        <SectionTitle>Smart City</SectionTitle>
         <Typography
           component="p"
           variant={'h6'}
