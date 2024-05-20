@@ -21,7 +21,7 @@ import { portfolio } from './data.js';
 const List = () => {
   return (
     <Box>
-      <SectionTitle>Engage, Interacte, Learn</SectionTitle>
+      <SectionTitle>Engage, Interact, Learn</SectionTitle>
       <SectionSubTitle>Pushing LEGO&reg; Bricks Futher</SectionSubTitle>
 
       <Grid container spacing={4} marginTop={3}>
