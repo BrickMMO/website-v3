@@ -9,23 +9,23 @@ export const faqs = [
     title: 'Cameras',
     subtitle: (
       <Box>
-        <Typography component="p" marginBottom={1}>
+        <Typography
+          component="p"
+          color="textSecondary"
+          variant={'h6'}
+          fontWeight={400}
+          marginBottom={2}
+        >
           LEGO® does not make cameras, but they are crucial to many BrickMMO
-          systems including{' '}
-          <Link to="/systems-gps" underline="none">
-            GPS
-          </Link>
-          ,{' '}
-          <Link to="/systems-streetview" underline="none">
-            Streetview
-          </Link>
-          ,{' '}
-          <Link to="/systems-places" underline="none">
-            Places
-          </Link>
-          , and more.
+          systems including GPS, Streetview, Places, and more.
         </Typography>
-        <Typography component="p">
+        <Typography
+          component="p"
+          color="textSecondary"
+          variant={'h6'}
+          fontWeight={400}
+          marginBottom={2}
+        >
           BrickMMO uses the{' '}
           <Link to="https://pixycam.com/pixy2/" underline="none">
             Pixy2
@@ -41,15 +41,26 @@ export const faqs = [
     title: 'Electricity',
     subtitle: (
       <Box>
-        <Typography component="p" marginBottom={1}>
+        <Typography
+          component="p"
+          color="textSecondary"
+          variant={'h6'}
+          fontWeight={400}
+          marginBottom={2}
+        >
           LEGO® hubs need electricity and mobile robots need electricity but
           must be free of cables.
         </Typography>
-        <Typography component="p">
+        <Typography
+          component="p"
+          color="textSecondary"
+          variant={'h6'}
+          fontWeight={400}
+          marginBottom={2}
+        >
           BrickMMO has developed inductive charging adaptors compatible with
-          LEGO® SPIKE™ and MINDSTORMS® hubs. View the{' '}
-          <Link to="/systems-inductive-charging">Inductive Charging</Link>{' '}
-          system for more information.
+          LEGO® SPIKE™ and MINDSTORMS® hubs. View the Inductive Charging system
+          for more information.
         </Typography>
       </Box>
     ),
@@ -58,12 +69,16 @@ export const faqs = [
     title: 'Cables',
     subtitle: (
       <Box>
-        <Typography component="p" marginBottom={2}>
+        <Typography
+          component="p"
+          color="textSecondary"
+          variant={'h6'}
+          fontWeight={400}
+          marginBottom={2}
+        >
           We need cables. And we need long cables. Using standard RJ12
           connectors and 6P6C cables we can create custom length MINDSTORMS®
-          compatible cables. View the{' '}
-          <Link to="/systems-inductive-charging">Custom Cables</Link> system for
-          more information.
+          compatible cables. View the Custom Cables system for more information.
         </Typography>
       </Box>
     ),
