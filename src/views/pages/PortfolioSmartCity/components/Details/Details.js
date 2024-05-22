@@ -32,27 +32,13 @@ const Details = () => {
           fontWeight={400}
           marginBottom={2}
         >
-          A greebled version of the Humber College logo measuring approximately
-          75cm x 75cm. This logo is hanging in the BrickMMO project room at
-          Humber College.
-        </Typography>
-        <Typography
-          component="p"
-          variant={'h6'}
-          fontWeight={400}
-          marginBottom={2}
-        >
-          Greeble is defined as "small pieces of detailing added to break up the
-          surface of an object and add visual interest" ~ Wikipedia. LEGO®
-          greebling is a common building technique used in the LEGO® community.
-          To keep our greebling consistant we have some rules in a{' '}
-          <Link
-            component={LinkRouter}
-            to="https://github.com/BrickMMO/logo-greeble"
-          >
-            logo-greeble
+          The Smart City Development Platform provides students with a sandbox
+          to apply thier skills and gain industry experience while mainatining
+          the comfort of the classroom and fellow studnets. Read the{' '}
+          <Link component={LinkRouter} href="https://wic.codeadam.ca">
+            WIC Whitepaper
           </Link>{' '}
-          GitHub repo.
+          for more information.
         </Typography>
         <Typography
           component="p"
@@ -60,8 +46,18 @@ const Details = () => {
           fontWeight={400}
           marginBottom={2}
         >
-          This is the first of four logos being converted to LEGO® bricks and
-          greeble.
+          Students develop systems from conception to finished products inside
+          the Smart City. This includes autonomous driving cars, a working GPS
+          system, a crypto currency, an AI generated radio station, and more.
+        </Typography>
+        <Typography
+          component="p"
+          variant={'h6'}
+          fontWeight={400}
+          marginBottom={2}
+        >
+          The city is designed to encourage collaboration between students from
+          multiple programs and between institutions.
         </Typography>
       </Container>
     </Box>
