@@ -30,16 +30,16 @@ export const pages = [
         href: '/portfolio',
       },
       {
-        title: 'The Logo Project',
-        href: '/portfolio-logos',
+        title: 'Smart City',
+        href: '/portfolio-smart-city',
       },
       {
         title: 'Bio 2024',
         href: '/portfolio-bio-2024',
       },
       {
-        title: 'Smart City',
-        href: '/portfolio-smart-city',
+        title: 'The Logo Project',
+        href: '/portfolio-logos',
       },
     ],
   },
